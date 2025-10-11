@@ -1,5 +1,7 @@
-📊 Influence Calculator
+# 📊 Influence Calculator
 A sleek, interactive web application to visualize numerical data and calculate the statistical "influence" of any subset. See how selecting different data points impacts the overall average in real-time!
+
+---
 
 ## ✨ Features
 
@@ -21,7 +23,9 @@ Influence Score: A unique metric calculated as the percentage change between the
 
 Modern & Responsive UI: A clean and visually appealing interface built with pure CSS, featuring smooth hover effects and transitions.
 
-🤔 What is "Influence"?
+---
+
+### 🤔 What is "Influence"?
 The "Influence" score is designed to quantify the impact of a subset of data on the overall average. It answers the question: "How much does the average change when I only consider these specific data points?"
 
 It's a powerful way to spot outliers or understand the weight of certain data clusters within your set. The formula used is:
@@ -37,7 +41,9 @@ Frontend: HTML5, CSS3, Vanilla JavaScript
 
 Communication: Fetch API for asynchronous client-server requests (AJAX)
 
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
@@ -58,11 +64,11 @@ Create and activate a virtual environment (recommended):
 
 Bash
 
-# For macOS/Linux
+### For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
-# For Windows
+### For Windows
 python -m venv venv
 .\venv\Scripts\activate
 Install the required dependencies:
@@ -75,7 +81,7 @@ Run the Flask application:
 Bash
 
 flask run
-# Or, if the above doesn't work
+### Or, if the above doesn't work
 python app.py
 View the application:
 Open your web browser and navigate to http://127.0.0.1:5000.
@@ -83,6 +89,7 @@ Open your web browser and navigate to http://127.0.0.1:5000.
 📁 Project Structure
 Here is a brief overview of the project's file structure:
 
+```
 .
 ├── app.py              # The Flask backend server logic
 ├── static/
