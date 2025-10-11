@@ -49,44 +49,40 @@ Follow these instructions to get the project up and running on your local machin
 Prerequisites
 You will need to have the following installed on your system:
 
-Python 3.x
-
+Python 3
+```
 pip (Python package installer)
-
+```
 Installation & Setup
 Clone the repository:
-
-Bash
-
+(Bash)
+```
 git clone https://github.com/your-username/influence-calculator.git
 cd influence-calculator
-Create and activate a virtual environment (recommended):
-
-Bash
-
-### For macOS/Linux
+```
+### Create and activate a virtual environment (recommended):
+For macOS/Linux
+```
 python3 -m venv venv
 source venv/bin/activate
-
-### For Windows
+```
+For Windows
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
 Install the required dependencies:
-
-Bash
-
+```
 pip install Flask
+```
 Run the Flask application:
-
-Bash
-
-flask run
-### Or, if the above doesn't work
+```
 python app.py
+```
 View the application:
 Open your web browser and navigate to http://127.0.0.1:5000.
 
-📁 Project Structure
+### 📁 Project Structure
 Here is a brief overview of the project's file structure:
 
 ```
@@ -97,3 +93,4 @@ Here is a brief overview of the project's file structure:
 │   └── style.css       # All styles for the application, including animations and layout
 └── templates/
     └── counter.html    # The main HTML file that structures the page
+```
