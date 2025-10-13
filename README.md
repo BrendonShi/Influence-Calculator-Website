@@ -1,9 +1,9 @@
-# 📊 Influence Calculator
+# Influence Calculator
 A sleek, interactive web application to visualize numerical data and calculate the statistical "influence" of any subset. See how selecting different data points impacts the overall average in real-time!
 
 ---
 
-## ✨ Features
+## Features
 
 Dynamic Chart Generation: Instantly visualizes your number set as a beautiful, animated bar chart.
 
@@ -25,7 +25,7 @@ Modern & Responsive UI: A clean and visually appealing interface built with pure
 
 ---
 
-### 🤔 What is "Influence"?
+### What is "Influence"?
 The "Influence" score is designed to quantify the impact of a subset of data on the overall average. It answers the question: "How much does the average change when I only consider these specific data points?"
 
 It's a powerful way to spot outliers or understand the weight of certain data clusters within your set. The formula used is:
@@ -43,7 +43,7 @@ Communication: Fetch API for asynchronous client-server requests (AJAX)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
@@ -82,7 +82,7 @@ python app.py
 View the application:
 Open your web browser and navigate to http://127.0.0.1:5000.
 
-### 📁 Project Structure
+### Project Structure
 Here is a brief overview of the project's file structure:
 
 ```
