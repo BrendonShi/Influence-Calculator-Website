@@ -34,7 +34,7 @@ $$ \text{Influence} = \frac{|\text{Subset Average} - \text{Total Average}|}{|\te
 
 This provides a clear percentage, showing how much your selection pulls the overall average up or down.
 
-💻 Tech Stack
+### Tech Stack
 Backend: Python & Flask
 
 Frontend: HTML5, CSS3, Vanilla JavaScript
@@ -49,9 +49,14 @@ Follow these instructions to get the project up and running on your local machin
 Prerequisites
 You will need to have the following installed on your system:
 
-Python 3
+Python
+On MacOS:
+```bash
+brew install python
 ```
-pip (Python package installer)
+On Windows
+```bash
+winget install -e --id Python.Python.3.12
 ```
 Installation & Setup
 Clone the repository:
