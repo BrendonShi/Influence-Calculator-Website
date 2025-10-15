@@ -1,6 +1,8 @@
 # Influence Calculator
 A sleek, interactive web application to visualize numerical data and calculate the statistical "influence" of any subset. See how selecting different data points impacts the overall average in real-time!
 
+![msedge_1hlTtSnHw7](https://github.com/user-attachments/assets/7b440c5f-ac05-4596-acde-49d28a954e25)
+
 ---
 
 ## Features
