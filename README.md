@@ -43,7 +43,7 @@ Communication: Fetch API for asynchronous client-server requests (AJAX)
 
 ---
 
-## Getting Started
+## Hot to run
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
