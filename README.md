@@ -23,30 +23,18 @@ Average: The mean of the selected values.
 
 Influence Score: A unique metric calculated as the percentage change between the average of your selected subset and the average of the entire dataset.
 
-Modern & Responsive UI: A clean and visually appealing interface built with pure CSS, featuring smooth hover effects and transitions.
-
 ---
-
-### What is "Influence"?
-The "Influence" score is designed to quantify the impact of a subset of data on the overall average. It answers the question: "How much does the average change when I only consider these specific data points?"
-
-It's a powerful way to spot outliers or understand the weight of certain data clusters within your set. The formula used is:
-
-$$ \text{Influence} = \frac{|\text{Subset Average} - \text{Total Average}|}{|\text{Total Average}|} \times 100% $$
-
-This provides a clear percentage, showing how much your selection pulls the overall average up or down.
 
 ### Tech Stack
 Backend: Python & Flask
 
 Frontend: HTML5, CSS3, Vanilla JavaScript
 
-Communication: Fetch API for asynchronous client-server requests (AJAX)
+Communication: Fetch API for asynchronous client-server requests
 
 ---
 
 ## How to run the code
-Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
 You will need to have the following installed on your system:
