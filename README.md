@@ -13,13 +13,13 @@ Interactive Data Selection: Simply click or drag across the chart to select and 
 
 Real-Time Calculations: Get immediate feedback with statistics for your selected data:
 
-Total: Sum of selected values.
+* Total: Sum of selected values.
 
-Median: The middle value of the selected set.
+* Median: The middle value of the selected set.
 
-Mode: The most frequently occurring value.
+* Mode: The most frequently occurring value.
 
-Average: The mean of the selected values.
+* Average: The mean of the selected values.
 
 Influence Score: A unique metric calculated as the percentage change between the average of your selected subset and the average of the entire dataset.
 
